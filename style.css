@@ -7,6 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 main {
     min-height: 100vh;
     display: grid;
